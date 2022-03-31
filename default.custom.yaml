@@ -9,7 +9,9 @@
 # 於重新部署後生效
 
 patch:
-  menu/page_size: 5 #候选词数
+  schema_list:
+    - schema: double_pinyin_mspy # smyle added
+  menu/page_size: 9 #候选词数
   style/horizontal: true # 候选窗水平显示
 
 
